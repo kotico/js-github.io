@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#timer_header {
+	margin: 30px 0;
+	text-align: center;
+	font-family: Arial;
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #9f1a7e;
+}
+
+#timer {
+	text-align: center;
+	font-family: Arial;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#button_start {
+	width: 160px;
+	height: 40px;
+	font-family: Arial;
+	font-size: 20px;
+	background: green;
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+#button_split {
+	width: 160px;
+	height: 40px;
+	font-family: Arial;
+	font-size: 20px;
+	background: #233b73;
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+#button_reset {
+	width: 160px;
+	height: 40px;
+	font-family: Arial;
+	font-size: 20px;
+	background: #e8123f;
+	border: 2px solid #000000;
+	cursor: pointer;
+}
+
+#button_reset:hover, #button_start:hover, #button_split:hover {
+	box-shadow: 0px 0px 12px 2px #000000;
+}
+
+.time_value_output {
+	margin: 20px 0;
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.button_position {
+	text-align: center;
+	margin-top: 50px;
+}
