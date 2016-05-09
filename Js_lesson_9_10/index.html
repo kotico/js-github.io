@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Java Script Carusel HW_9-10</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link  href="css/jquery.selectbox.css" type="text/css" rel="stylesheet"/>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.jcarousel-core.min.js"></script>
+	<script src="js/jquery.jcarousel-control.min.js"></script>
+	<script src="js/jquery.jcarousel-pagination.min.js"></script>
+	<script src="js/jquery.jcarousel-autoscroll.min.js"></script>
+	<script src="js/jquery.checkbox.js"></script>
+	<script src="js/jquery.selectbox-0.2.js"></script>
+  
+  
+  <script type="text/javascript" src="js/script.js"></script>
+  
+</head>
+<body>
+    <div class="wrapper_checkbox_select">
+
+        <!--select box-->
+        <form action="">
+               <select name="excursion" id="excursion" tabindex="1">
+                   <option value="">Select Item</option>
+                   <optgroup label="Item_1">
+                      <option value="1">Item_1.1</option>
+                      <option value="9">Item_1.2</option>
+                   </optgroup>
+                   <optgroup label="Item_2">
+                       <option value="2">Item_2.1</option>
+                       <option value="3">Item_2.2</option>
+                       <option value="6">Item_2.3</option>
+                       <option value="7" disabled="disabled">Item_2.4</option>
+                       <option value="8">Item_2.5</option>
+                   </optgroup>
+                   <optgroup label="Item_3" disabled="disabled">
+                       <option value="5">Item_3.1</option>
+                       <option value="11">Item_3.2</option>
+                   </optgroup>
+                   <option value="4">Item_4</option>
+                   <option value="10">Item_5</option>
+               </select>
+        </form>
+        <br>
+        <!--CSS Checkbox-->
+        <form action="">
+                <div>
+                	<input type="checkbox" class="form__checkbox" id="id_1">
+                	<label for="id_1" class="label_checkbox">CSS Checkbox 1</label>
+                </div>
+                <div>
+                	<input type="checkbox" class="form__checkbox" id="id_2">
+                	<label for="id_2" class="label_checkbox">CSS Checkbox 2</label>
+                </div>
+                <div>
+                	<input type="checkbox" class="form__checkbox" id="id_3">
+                	<label for="id_3" class="label_checkbox">CSS Checkbox 3</label>
+                </div>	
+        </form>
+        <br>
+        <!-- jQuery Checkbox-->
+        <form action="">
+                 <div>
+                 	<span class="bestCheck"><input type="checkbox" id="check_1"></span>
+                 	<label for="check_1" class="label_bestCheck">jQuery Check Box 1</label>
+                 </div>
+                 <div>
+                 	<span class="bestCheck"><input type="checkbox" id="check_2"></span>
+                 	<label for="check_2" class="label_bestCheck">jQuery Check Box 2</label>
+                 </div>
+                  <div>
+                 	<span class="bestCheck"><input type="checkbox" id="check_3"></span>
+                 	<label for="check_3" class="label_bestCheck">jQuery Check Box 3</label>
+                 </div>
+        </form>
+    </div>
+    <!--Карусель-->
+    <div class="jcarousel_wrapper">
+            <div class="jcarousel">
+                 <ul>
+                 	<li><img src="img/goa_1.jpg"></li>
+                 	<li><img src="img/goa_2.jpg"></li>
+                 	<li><img src="img/goa_3.jpg"></li>
+                 	<li><img src="img/goa_4.jpg"></li>
+                 	<li><img src="img/goa_5.jpg"></li>
+                 </ul>
+            </div>
+    </div>
+    <div class="box-pagination">
+          <a class="jcarousel_preview" href="#">Preview</a>
+          <div class="jcarousel_pagination">
+          <!--здесь нумеруются изображения карусели-->	
+          </div>
+          <a class="jcarousel_next" href="#">Next</a>  
+    </div>
+    <!--Menu-->
+    <div class="menu_box">
+         <ul class="menu clearfix">
+             <li><a href="">Item_1</a></li>
+             <li><a href="">Item_2</a></li>
+             <li class="dropdown"><a href="">Item_3</a>
+                  <ul class="sub_menu">
+                      <li><a href="">Item_3.1</a></li>
+                      <li><a href="">Item_3.2</a></li>
+                      <li class="dropdown"><a href="">Item_3.3</a>
+                          <ul class="sub_menu">
+                              <li><a href="">Item_3.3.1</a></li>
+                              <li class="dropdown"><a href="">Item_3.3.2</a>
+                                  <ul class="sub_menu">
+                                      <li><a href="">Item_3.3.2.1</a></li>
+                                      <li><a href="">Item_3.3.2.2</a></li>
+                                      <li><a href="">Item_3.3.2.3</a></li>
+                                  </ul>
+                          	  </li>
+                          	  <li><a href="">Item_3.3.3</a></li>
+                          </ul>
+                       </li>
+                       <li><a href="">Item_3.4</a></li>
+                  </ul>
+              </li>
+              <li><a href="">Item_4</a></li>
+              <li><a href="">Item_5</a></li>
+         </ul>
+    </div>
+
+</body>
+</html>
