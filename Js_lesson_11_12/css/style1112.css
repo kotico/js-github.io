@@ -1,0 +1,99 @@
+body {
+
+	background-color: #e2e1e0;
+}
+.carousel {
+	display: block;
+	height: 400px;
+	margin: 50px auto;
+}
+button {
+	display: block;
+	cursor: pointer;
+	clear: both;
+	margin-top: 50px;
+	border: 1px solid #13e0f8;
+	background-color: #b7b5b5;
+	padding: 5px;
+	line-height: 25px;
+	font-size: 14px;
+}
+.first {
+	display: none;
+}
+.carousel-list {
+	list-style: none;
+	width: 10000px;
+	padding: 0px;
+	position: relative;
+	margin-left: 0px;
+}
+.carousel_el {
+	display: inline;
+	float: left;
+	margin-right: 0px;
+}
+.carousel-element:last-child {
+    margin-right: 0px;
+}
+.carousel-element img {
+	width: 800px;
+	height: 400px;
+}
+.carousel-wrapper {
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+	float: left;
+	display: block;
+	border: 1px solid #13e0f8;
+	background-color: #b7b5b5;
+	padding: 5px;
+	margin-top: 50px;
+}
+.carousel-arrow-left:hover, .carousel-arrow-right:hover, button:hover {
+    cursor: pointer;
+    background-color: #708bb1;
+    color: #13e0f8
+}
+ 
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+ul {
+	margin-left: 15%;
+}
+hr{
+	text-align: center;
+	color: #9dc4b1;
+	width: 80%;
+}
+.foto{
+	margin: 0% 25% 0% 35%;
+	border-radius: 5px;
+    width: 30%;
+}
+p{
+	padding-left: 10%;
+}
+h1 {
+	padding-left: 15%;
+	margin-top: 0px;
+	font-size: 26px;
+}
+.little{
+	background-color: white;
+	font-family: Tahoma;
+	margin: 1% 20% 10% 20%;
+	height: 70%;
+	width: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    padding-bottom: 50px;
+}
