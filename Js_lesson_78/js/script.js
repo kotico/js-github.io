@@ -1,5 +1,3 @@
-alert ('');
-
 $(function() {
 
 	var $firstName = $('#first_name');
@@ -28,7 +26,7 @@ $(function() {
 
 	$tab2.on('click', function() {
 		$('.tab_2_text').show();
-		$('this').removeClass('tab_unvisited').addClass('tab_visited');
+		$(this).removeClass('tab_unvisited').addClass('tab_visited');
 		$('tab_1_text').hide();
 		$('tab_3_text').hide();
 		$tab1.removeClass('tab_visited').addClass('tab_unvisited');
