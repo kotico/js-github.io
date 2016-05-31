@@ -11,48 +11,44 @@
         <header>
             <div class="top">
                 <div class="contacts">
-                    <div class="phone"><img src="img/phone.png" alt=""/></div>
+                    <div class="phone"><img src="img/phone.png" alt="phone"/></div>
                     <p>(044)123-45-67&nbsp;(044)567-89-10</p>
                 </div>
-                <div class="registration">
-                    <div class="authorization">
-                        <img src="img/autorization.png" alt="">
-                    </div>
-                    <div class="login">
-                        <input type="text" name="login" placeholder="логин" required>
-                    </div>
-                    <div class="pass">
+                <form action="#" class="registration">
+                        <img class="authorization" src="img/autorization.png" alt="Autorization">
+                        <input class="login" type="text" name="login" placeholder="логин" required>
+                        <input class="pass" type="password" name="pass" placeholder="пароль" required>
                         <input type="password" name="pass" placeholder="пароль" required>
-                    </div>
-                    <div class="ent"><a href="#">вход</a></div>
-                    <div class="line"></div>
-                    <div class="reg"><a href="#">регистрация</a></div>
-                    <div class="fpass"><a href="#">забыли пароль?</a></div>
-                </div>
+                        <button class="ent">вход</button>
+                        <div class="line"></div>
+                        <div class="reg"><a href="#">регистрация</a></div>
+                        <div class="fpass"><a href="#">забыли пароль?</a></div>
+                </form>
                 <div class="navi">
-                    <div class="home"><a href="#"><img src="img/home.png" alt=""></a></div>
-                    <div class="sitemap"><a href="#"><img src="img/sitemap.png" alt=""></a></div>
-                    <div class="letter"><a href="#"><img src="img/letter.png" alt=""></a></div>
+                    <div class="home"><a href="#"><img src="img/home.png" alt="home"></a></div>
+                    <div class="sitemap"><a href="#"><img src="img/sitemap.png" alt="sitemap"></a></div>
+                    <div class="letter"><a href="#"><img src="img/letter.png" alt="letter"></a></div>
                 </div>
             </div>
             <div class="logo">
-                <img src="img/logo.png" alt="" />
+                <img src="img/logo.png" alt="logo" />
             </div>
             <div class="bottom">
-                <menu>
+                <ul>
                     <li class="selected"><a href="#">О компании</a></li>
                     <li><a href="#">Оплата</a></li>
                     <li><a href="#">Доставка</a></li>
                     <li><a href="#">Статьи</a></li>
                     <li><a href="#">Контакты</a></li>
-                </menu>
+                </ul>
                 <div class="basket">
-                    <a href="#"><img src="img/basket.png" alt=""></a>
+                    <a href="#"><img src="img/basket.png" alt="basket"></a>
                     <p>товаров:<span>0</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p>на сумму:&nbsp;&nbsp;&nbsp;<span>0,00&nbsp;грн.</span></p>
                 </div>
             </div>
         </header>
+       </div>
         <div class="forms">
             <div class="carsearch">
                 <span class="title_car_search">Поиск по автомобилю</span>
@@ -60,34 +56,34 @@
                     <span class="title_disks">Диски:</span>
                     <div class="mark">
                         <p>Марка&nbsp;<span>авто:</span></p>
-                        <select class="marksel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="marksel" name="marksel">
+                            <option value="Аudi">Аudi</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Lexus">Lexus</option>
                         </select>
                     </div>
                     <div class="model">
                         <p>Модель&nbsp;<span>автомобиля:</span></p>
-                        <select class="modelsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="modelsel" name="name[]">
+                            <option value="Audi4">Audi4</option>
+                            <option value="Audi8">Audi8</option>
+                            <option value="AudiI8">AudiI8</option>
                         </select>
                     </div>
                     <div class="year">
                         <p>Год выпуска&nbsp;<span>автомобиля:</span></p>
-                        <select class="yearsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="yearsel" name="name[]">
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
                         </select>
                     </div>
                     <div class="complect">
                         <p>Комплектация:</p>
-                        <select class="complectsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="complectsel" name="name[]">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </select>
                     </div>
                 </form>
@@ -95,34 +91,34 @@
                     <span class="title_tires">Шины:</span>
                     <div class="mark1">
                         <p>Марка&nbsp;<span>авто:</span></p>
-                        <select class="mark1sel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="mark1sel" name="name[]">
+                            <option value="Audi">Audi</option>
+                            <option value="Lexus">Lexus</option>
+                            <option value="Ford">Ford</option>
                         </select>
                     </div>
                     <div class="model1">
                         <p>Модель&nbsp;<span>автомобиля:</span></p>
-                        <select class="model1sel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="model1sel" name="name[]">
+                            <option value="">Audi4</option>
+                            <option value="">Audi8</option>
+                            <option value="">AudiI8</option>
                         </select>
                     </div>
                     <div class="year1">
                         <p>Год выпуска&nbsp;<span>автомобиля:</span></p>
-                        <select class="year1sel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="year1sel" name="name[]">
+                            <option value="">2005</option>
+                            <option value="">2006</option>
+                            <option value="">2007</option>
                         </select>
                     </div>
                     <div class="complect1">
                         <p>Комплектация:</p>
-                        <select class="complect1sel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="complect1sel" name="name[]">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </select>
                     </div>
                 </form>
@@ -133,40 +129,40 @@
                 <form class="tires_search" action="index.html" method="post">
                     <div class="size">
                         <p>Размер:</p>
-                        <select class="sizesel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="sizesel" name="name[]">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </select>
                     </div>
                     <div class="slash">
                         <p>/</p>
-                        <select class="slashsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="slashsel" name="name[]">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </select>
                     </div>
                     <div class="R">
-                        <p>R</span></p>
-                        <select class="Rsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <p>R<span></span></p>
+                        <select class="Rsel" name="name[]">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
                         </select>
                     </div>
                     <div class="season">
                         <p>Сезон:</p>
                         <div class="check1">
-                            <input class="checksel" type="checkbox" name="" value="">
+                            <input class="checksel" type="checkbox" name="name[]" value="summer">
                             <span>лето</span>
                         </div>
                         <div class="check2">
-                            <input class="checksel" type="checkbox" name="" value="">
+                            <input class="checksel" type="checkbox" name="name[]" value="winter">
                             <span>зима</span>
                         </div>
                         <div class="check3">
-                            <input class="checksel" type="checkbox" name="" value="">
+                            <input class="checksel" type="checkbox" name="name[]" value="all_season">
                             <span>всесез</span>
                         </div>
                     </div>
@@ -178,56 +174,56 @@
                 <form class="disks_search" action="index.html" method="post">
                     <div class="diameter">
                         <p>Диаметр&nbsp;&nbsp;<span>диска:</span></p>
-                        <select class="diametersel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="diametersel" name="name[]">
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </div>
                     <div class="quantity">
                         <p>Количество&nbsp;&nbsp;<span>крепёжных&nbsp;</span><span>отверстий:</span></p>
-                        <select class="quantitysel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <select class="quantitysel" name="name[]">
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </div>
                     <div class="diameterrko">
-                        <p>Диаметр&nbsp;&nbsp;<span>расположения&nbsp;</span><span>крепёжных&nbsp;</span><span>отверстий:</p>
-                        <select class="diameterrkosel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <p>Диаметр&nbsp;&nbsp;<span>расположения&nbsp;</span><span>крепёжных&nbsp;</span><span>отверстий:</span></p>
+                        <select class="diameterrkosel" name="name[]">
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </div>
                     <div class="dco">
-                        <p>ДЦО&nbsp;&nbsp;<span>(диаметр&nbsp;</span><span>центрального&nbsp;</span><span>отверстия):</p>
-                        <select class="dcosel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <p>ДЦО&nbsp;&nbsp;<span>(диаметр&nbsp;</span><span>центрального&nbsp;</span><span>отверстия):</span></p>
+                        <select class="dcosel" name="name[]">
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </div>
                     <div class="et">
-                        <p>ET&nbsp;&nbsp;<span>(вылет&nbsp;диска):</p>
-                        <select class="etsel" name="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                        <p>ET&nbsp;&nbsp;<span>(вылет&nbsp;диска):</span></p>
+                        <select class="etsel" name="name[]">
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
                         </select>
                     </div>
                 </form>
                 <div class="disksline"></div>
                 <a href="#">поиск...</a>
             </div>
-        </div>
+    </div>
         <div class="content">
             <div class="left">
                 <div class="catalog">
-                    <img src="img/list.png" alt=""><p>Каталог продукции:</p>
+                    <img src="img/list.png" alt="icon"/><p>Каталог продукции:</p>
                 </div>
                 <div class="tire">
-                    <img src="img/tire.png" alt=""><p>Шины</p>
+                    <img src="img/tire.png" alt="icon"/><p>Шины</p>
                 </div>
                 <ul>
                     <li><a href="#">Наименование 1</a></li>
@@ -236,7 +232,7 @@
                     <li><a href="#">Наименование 4</a></li>
                 </ul>
                 <div class="disks">
-                    <img src="img/elipse.png" alt=""><p>Диски</p>
+                    <img src="img/elipse.png" alt="icon"/><p>Диски</p>
                 </div>
                 <ul>
                     <li><a href="#">Наименование 1</a></li>
@@ -245,7 +241,7 @@
                     <li><a href="#">Наименование 4</a></li>
                 </ul>
                 <div class="bolts">
-                    <img src="img/elipse.png" alt=""><p>Болты</p>
+                    <img src="img/elipse.png" alt="icon"><p>Болты</p>
                 </div>
                 <ul>
                     <li><a href="#">Наименование 1</a></li>
@@ -261,7 +257,7 @@
                             <p class="name1">Goodyear</p>
                             <p class="secondname1">Ultra Grip Extreme</p>
                             <div class="wheel1">
-                                <img src="img/wheel1.png" alt="" />
+                                <img src="img/wheel1.png" alt="wheel" />
                             </div>
                             <p class="price1">90.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -271,7 +267,7 @@
                             <p class="name1">Goodyear</p>
                             <p class="secondname1">Ultra Grip Extreme</p>
                             <div class="wheel1">
-                                <img src="img/wheel1.png" alt="" />
+                                <img src="img/wheel1.png" alt="wheel" />
                             </div>
                             <p class="price1">90.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -281,7 +277,7 @@
                             <p class="name1">Goodyear</p>
                             <p class="secondname1">Ultra Grip Extreme</p>
                             <div class="wheel1">
-                                <img src="img/wheel1.png" alt="" />
+                                <img src="img/wheel1.png" alt="wheel" />
                             </div>
                             <p class="price1">90.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -293,7 +289,7 @@
                             <p class="name2">Nokian</p>
                             <p class="secondname2">Hakkapeliitta R</p>
                             <div class="wheel2">
-                                <img src="img/wheel2.png" alt="" />
+                                <img src="img/wheel2.png" alt="wheel" />
                             </div>
                             <p class="price2">115.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -303,7 +299,7 @@
                             <p class="name2">Nokian</p>
                             <p class="secondname2">Hakkapeliitta R</p>
                             <div class="wheel2">
-                                <img src="img/wheel2.png" alt="" />
+                                <img src="img/wheel2.png" alt="wheel" />
                             </div>
                             <p class="price2">115.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -313,7 +309,7 @@
                             <p class="name2">Nokian</p>
                             <p class="secondname2">Hakkapeliitta R</p>
                             <div class="wheel2">
-                                <img src="img/wheel2.png" alt="" />
+                                <img src="img/wheel2.png" alt="wheel" />
                             </div>
                             <p class="price2">115.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -325,7 +321,7 @@
                             <p class="name3">Hankook</p>
                             <p class="secondname3">K 708 155/65 R14</p>
                             <div class="wheel3">
-                                <img src="img/wheel3.png" alt="" />
+                                <img src="img/wheel3.png" alt="wheel" />
                             </div>
                             <p class="price3">393.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -335,7 +331,7 @@
                             <p class="name3">Hankook</p>
                             <p class="secondname3">K 708 155/65 R14</p>
                             <div class="wheel3">
-                                <img src="img/wheel3.png" alt="" />
+                                <img src="img/wheel3.png" alt="wheel" />
                             </div>
                             <p class="price3">393.00&nbsp;<span>грн.</span></p>
                         </a>
@@ -345,17 +341,17 @@
                             <p class="name3">Hankook</p>
                             <p class="secondname3">K 708 155/65 R14</p>
                             <div class="wheel3">
-                                <img src="img/wheel3.png" alt="" />
+                                <img src="img/wheel3.png" alt="wheel" />
                             </div>
                             <p class="price3">393.00&nbsp;<span>грн.</span></p>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="right">
-                <div class="brandstitle"><img src="img/list1.png" alt=""><p>Бренды:</p></div>
+            <aside class="right">
+                <div class="brandstitle"><img src="img/list1.png" alt="icon"/><p>Бренды:</p></div>
                 <div class="brands">
-                    <div class="btire"><img src="img/tire.png" alt=""><p>Шины</p></div>
+                    <div class="btire"><img src="img/tire.png" alt="icon"/><p>Шины</p></div>
                     <form class="tirescheck" action="index.html" method="post">
                         <div class="tcheck">
                             <input class="checksel1" type="checkbox" name="name" value="">
@@ -370,7 +366,7 @@
                             <span>Бренд 3</span>
                         </div>
                     </form>
-                    <div class="bdisks"><img src="img/elipse.png" alt=""><p>Диски</p></div>
+                    <div class="bdisks"><img src="img/elipse.png" alt="icon"/><p>Диски</p></div>
                     <form class="diskscheck" action="index.html" method="post">
                         <div class="tcheck1">
                             <input class="checksel1" type="checkbox" name="name" value="">
@@ -384,20 +380,20 @@
                             <input class="checksel1" type="checkbox" name="name" value="">
                             <span>Бренд 3</span>
                         </div>
+                        <input type="submit" value="Выбрать" class="choise">
                     </form>
-                </div>
-                <div class="choise"><a href="#">Выбрать</a></div>
-            </div>
-        </div>
+               </div>    
+            </aside>
+        
         <div class="brandslogo">
-            <img class="brandlogo01" src="img/01.png" alt="">
-            <img class="brandlogo02" src="img/02.png" alt="">
-            <img class="brandlogo03" src="img/03.png" alt="">
-            <img class="brandlogo04" src="img/04.png" alt="">
-            <img class="brandlogo05" src="img/05.png" alt="">
-            <img class="brandlogo06" src="img/06.png" alt="">
-            <img class="brandlogo07" src="img/07.png" alt="">
-            <img class="brandlogo08" src="img/08.png" alt="">
+            <img class="brandlogo01" src="img/01.png" alt="brends_logo"/>
+            <img class="brandlogo02" src="img/02.png" alt="brends_logo"/>
+            <img class="brandlogo03" src="img/03.png" alt="brends_logo"/>
+            <img class="brandlogo04" src="img/04.png" alt="brends_logo"/>
+            <img class="brandlogo05" src="img/05.png" alt="brends_logo"/>
+            <img class="brandlogo06" src="img/06.png" alt="brends_logo"/>
+            <img class="brandlogo07" src="img/07.png" alt="brends_logo"/>
+            <img class="brandlogo08" src="img/08.png" alt="brends_logo"/>
         </div>
         <footer>
             <div class="footmenu">
@@ -411,6 +407,7 @@
             </div>
             <p class="license"> Создание сайта &copy; Global Vision</p>
         </footer>
+
     </div>
 </body>
 </html>
